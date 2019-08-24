@@ -1,12 +1,16 @@
 # Strategies
 
+## Duel-EMA
 
+short EMA - long EMA 
 
-Duel-EMA: short EMA - long EMA 
+## DEMA
 
-DEMA: double EMA
+double EMA
 
-MACD: moving average convergence/divergence 
+## MACD
+
+moving average convergence/divergence 
 
 1. MACD line: short EMA - long EMA 
 
@@ -14,9 +18,9 @@ MACD: moving average convergence/divergence
 
 3. Histogram: 
 
-RSI:
+## RSI
 
-Turtle: 
+## Turtle
 
 Donchian Chanel Buy at Sell at
 
