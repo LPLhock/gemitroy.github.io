@@ -12,6 +12,9 @@
   * [Practices](finance/market-theories/practices.md)
 * [Trading](finance/trading/README.md)
   * [Strategies](finance/trading/strategies.md)
+* [BTC Trade](finance/btc-trade/README.md)
+  * [Exchange List](finance/btc-trade/exchange-list.md)
+  * [Auto Trade](finance/btc-trade/auto-trade.md)
 
 ## Computer Science
 
