@@ -21,6 +21,7 @@
 
 {% tab title="gekko" %}
 * self hosted
+* gekko plus price: $33
 {% endtab %}
 {% endtabs %}
 
