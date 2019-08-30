@@ -1,6 +1,6 @@
 # Strategies
 
-## Duel-EMA
+## EMA Crossover
 
 short EMA - long EMA 
 

@@ -1,10 +1,13 @@
 # Auto Trade
 
+## Bots
+
 {% tabs %}
 {% tab title="3commas.io" %}
 * cloud
 * exchange list:  Binance/Huobi/Bitfinex/OKex
 * price/month: $24
+* provide signal through TradingView.com
 {% endtab %}
 
 {% tab title="cryptohopper.com" %}
@@ -21,11 +24,24 @@
 
 {% tab title="gekko" %}
 * self hosted
-* gekko plus price: $33
+* cloud version gekko plus price: $33
 {% endtab %}
 {% endtabs %}
 
-### 
+They provide back test and paper trade, but no self defined Algo
+
+## Crypto Quant
+
+{% tabs %}
+{% tab title="QuantConnect.com" %}
+* support Coinbase Pro and Bitfinex
+* backtest and live trade
+{% endtab %}
+
+{% tab title="RiceQuant" %}
+* Chinese
+{% endtab %}
+{% endtabs %}
 
 
 
