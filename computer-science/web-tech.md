@@ -21,7 +21,9 @@ SSL
 
 ## Misc
 
-CORS 
+CORS
+
+* 防御: 验证HTTP Referer字段 加Token JSONP 
 
 AJAX 
 
