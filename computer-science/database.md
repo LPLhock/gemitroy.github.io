@@ -2,11 +2,18 @@
 
 ## General 
 
-index table sharding 
+index 
+
+table sharding 
 
 ## SQL
 
-complex query SQL tuning execution plan index invalidity 
+complex query 
+
+SQL tuning 
+
+* execution plan 
+* index invalidity 
 
 ## Redis/Memcached 
 

@@ -25,7 +25,7 @@
   * [Java Web](computer-science/java/java-web.md)
 * [Algorithm](computer-science/algorithm.md)
 * [OOD](computer-science/ood.md)
-* [System Design](computer-science/system-design.md)
+* [System](computer-science/system-design.md)
 * [Database](computer-science/database.md)
 * [Agile/DevOps](computer-science/agile-devops.md)
 * [AI/ML](computer-science/ai-ml.md)
