@@ -1,6 +1,6 @@
 # Web Tech
 
-HTTP header
+## HTTP header
 
 ```text
 201=created 
@@ -12,6 +12,14 @@ HTTP header
 404=Not Found 
 5xx=Internal Server Error
 ```
+
+## How login works:
+
+HTTPS
+
+SSL
+
+## Misc
 
 CORS 
 

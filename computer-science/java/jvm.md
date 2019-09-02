@@ -4,13 +4,27 @@
 
 ### heap 
 
+* class instance, arrays
 * -Xms -Xmx 
 * Young gen \(1 Eden, 2 Survivor\) 
 * Old gen 
 
 ### perm gen \(metadata\) 
 
-* -XX:MaxPermSize
+* metadata=classes and methods defination = \(xx:PermSize, XX:MaxPermSize\) 
+* Method area 
+* String Pool 
+* Stack memory
+
+![](../../.gitbook/assets/jvm-memory.png)
+
+### Memory analysis
+
+-verbose:gc
+
+jmap
+
+visualVM
 
 ## GC
 

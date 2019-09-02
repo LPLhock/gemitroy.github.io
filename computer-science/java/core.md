@@ -10,6 +10,10 @@ class can only be public/default
 
 interface 
 
+only return type difference is not polymorphism, throws compile error.
+
+Class will not create default non-para constructer if any constructer is defined.
+
 default method 
 
 static method 
@@ -18,13 +22,22 @@ transient
 
 custom annotation 
 
-synchronized 
-
-volatile 
-
-usage 
+volatile usage 
 
 Long/Double read/write is not atomic operation on 32bit cpu 
+
+Java Param Pass by value
+
+parameterized argument 
+
+```text
+void func(int... values) { 
+    for(i=0;i<n;i++) n = values[i]; 
+    }
+void func(int... values) ~= void func(int[] values)
+```
+
+
 
 ### Stream 
 
@@ -35,38 +48,6 @@ SoftReference
 WeakReference 
 
 PhantomReference 
-
-### Collection 
-
-#### Iterator 
-
-forEach, hasNext, next, remove 
-
-ConcurrentModificationException 
-
-#### Queue 
-
-Dequeue - LinkedList 
-
-PriorityQueue 
-
-#### List 
-
-ArrayList 
-
-#### Map 
-
-HashMap 
-
-LinkedHashMap
-
-ConcurrentHashMap
-
-TreeMap
-
-WeakHashMap
-
-#### Set
 
 ### java.lang 
 
@@ -81,30 +62,6 @@ WeakHashMap
 * wait/notify 
 * reflect
 
-### java.util.concurrent 
-
-ConcurrentMap 
-
-ConcurrentNavigableMap 
-
-BlockingQueue 
-
-CountDownLatch 
-
-CyclicBarrier 
-
-Semaphore 
-
-Lock 
-
-ExecutorService 
-
-Callable 
-
-Future 
-
-AtomicXXX 
-
 ### Reflection 
 
 customized annotation 
@@ -112,6 +69,8 @@ customized annotation
 Proxy/InvocationHandler 
 
 Class.newInstance\(\) \(call no-arg constructor\) 
+
+Each class has a single class object, constructed by JVM when loaded by class loader
 
 ### java.util.function
 
