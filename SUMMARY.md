@@ -34,5 +34,6 @@
 * [AI/ML](computer-science/ai-ml.md)
 * [Python](computer-science/python.md)
 * [Web Tech](computer-science/web-tech.md)
-* [Big Data](computer-science/big-data.md)
+* [Big Data](computer-science/big-data/README.md)
+  * [Spark](computer-science/big-data/spark.md)
 
