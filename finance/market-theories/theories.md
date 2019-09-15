@@ -1,5 +1,11 @@
 # Theories
 
+## 学术界理论 
+
+有效市场和行为金融 
+
+Balance [market efficiency](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) with [behavior fincance](https://en.wikipedia.org/wiki/Behavioral_economics#Behavioral_finance)
+
 ## 技术分析 Technical Analysis
 
 ### 蜡烛图理论： K线 

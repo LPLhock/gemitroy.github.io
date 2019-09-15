@@ -1,6 +1,6 @@
 # Books
 
-## 投资
+## 投资入门
 
 ### 华尔街随机漫步 A Random Walk down Wall Street 
 
@@ -18,9 +18,21 @@
 
 证券分析
 
+### 非同寻常的大众幻想与全民疯狂 __Extraordinary Popular Delusions and The Madness of Crowds
+
+-查尔斯·麦基
+
+心理学
+
+### 乌合之众 The Crowd: A Study of the Popular Mind
+
+-古斯塔夫·勒庞
+
+心理学
+
 ### Rule \#1: The Simple Strategy for Successful Investing in Only 15 Minutes a Week
 
-## 交易-经典
+## 交易
 
 ### 金融怪杰 Market Wizards
 
@@ -34,15 +46,9 @@
 
 -埃德温•勒菲弗
 
-### 非同寻常的大众幻想与全民疯狂 __Extraordinary Popular Delusions and The Madness of Crowds
+### 
 
--查尔斯·麦基
-
-心理学
-
-### 乌合之众 The Crowd: A Study of the Popular Mind
-
-## 交易-技术分析
+## 技术分析
 
 ### Technical Analysis Using Multiple Timeframes
 
