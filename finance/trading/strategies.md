@@ -1,4 +1,4 @@
-# Strategies
+# Technical Indicator
 
 ## EMA Crossover
 
@@ -20,9 +20,7 @@ moving average convergence/divergence
 
 ## RSI
 
-## Turtle
-
-Donchian Chanel Buy at Sell at
+## Donchian Chanel Buy at Sell at
 
 
 
