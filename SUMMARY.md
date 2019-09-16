@@ -6,7 +6,8 @@
 
 * [Financial Market](finance/market-theories/README.md)
   * [Theories](finance/market-theories/theories.md)
-  * [Books](finance/market-theories/books.md)
+  * [Books](finance/market-theories/books/README.md)
+    * [Market Wizards](finance/market-theories/books/market-wizards.md)
   * [Terms](finance/market-theories/terms.md)
   * [Brokerage](finance/market-theories/brokerage.md)
   * [Practices](finance/market-theories/practices.md)
