@@ -8,6 +8,10 @@ Balance [market efficiency](https://en.wikipedia.org/wiki/Efficient-market_hypot
 
 ## 技术分析 Technical Analysis
 
+### 基本理念
+
+所有的行情和情绪已在当前的价格当中显示了出来
+
 ### 蜡烛图理论： K线 
 
 ### 道氏理论
@@ -51,6 +55,8 @@ Balance [market efficiency](https://en.wikipedia.org/wiki/Efficient-market_hypot
 {% endhint %}
 
 ## 思考
+
+市场唯一的真理：当前价格和成交量
 
 估计变动的成因：参与者每一次的买卖出价。
 
