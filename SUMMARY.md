@@ -8,6 +8,7 @@
   * [Theories](finance/market-theories/theories.md)
   * [Books](finance/market-theories/books/README.md)
     * [Market Wizards](finance/market-theories/books/market-wizards.md)
+    * [What Works on Wall Street](finance/market-theories/books/what-works-on-wall-street.md)
   * [Terms](finance/market-theories/terms.md)
   * [Brokerage](finance/market-theories/brokerage.md)
   * [Practices](finance/market-theories/practices.md)
