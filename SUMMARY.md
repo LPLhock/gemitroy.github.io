@@ -18,7 +18,7 @@
 * [BTC Trade](finance/btc-trade/README.md)
   * [Exchange List](finance/btc-trade/exchange-list.md)
   * [Auto Trade](finance/btc-trade/auto-trade.md)
-* [Strategy](finance/strategy.md)
+  * [Strategy](finance/btc-trade/strategy.md)
 
 ## Computer Science
 
