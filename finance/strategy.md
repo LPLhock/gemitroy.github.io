@@ -4,7 +4,7 @@
 
 ## My Strategy
 
-1. Find pair in market screener
+1. Find pair in market screener like coinmarketcap or tradingview
 2. 1. strong starting uptrend
    2. high liquidity and volume
    3. USDT base
