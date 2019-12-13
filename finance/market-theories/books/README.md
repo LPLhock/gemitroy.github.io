@@ -60,6 +60,10 @@
 
 ## Trading - TA
 
+#### The Little Book That Still Beats the Market
+
+**Technical Analysis of the Financial Markets**
+
 #### Technical Analysis Using Multiple Time Frames
 
 #### Technical Analysis: The Complete Resource for Financial Market Technicians
