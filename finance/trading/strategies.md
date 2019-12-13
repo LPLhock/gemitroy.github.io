@@ -1,28 +1,52 @@
 # Technical Indicator
 
-## EMA Crossover
+### EMA
 
-short EMA - long EMA 
+### DEMA
 
-## DEMA
+short EMA - long EMA
 
-double EMA
+### Bollinger Band
 
-## MACD
+Center Line = SMA
 
-moving average convergence/divergence 
+Upper / Lower Band = SD of n period price
 
-1. MACD line: short EMA - long EMA 
+### Donchian Chanel
 
-2. Siginal line: 9 day EMA of MACD 
+Upper Line = Highest high in n period
 
-3. Histogram: 
+Lower Line = Lowest low in n period
 
-## RSI
+Middle Line = \(Upper Line - Lower Line\) / 2
 
-## Bollinger Band
+### MACD \(Moving Average Converge/Diverge\)
 
-## Donchian Chanel
+1. MACD line = short EMA - long EMA 
+
+2. Signal line = 9 day EMA of MACD 
+
+3. Histogram = MACD - Signal line
+
+### RSI \(Relative Strength Index\)
+
+Ratio of n candles positive price change and negative price change
+
+look back period: n candles
+
+### MFI \(Money Flow Index\)
+
+Ratio of n candles positive Volumed price change and negative Volumed price change
+
+look back period: n candles
+
+### KDJ \(Derived Stochastic Oscillator\)
+
+K = \(Current Price - Low Price 14\) / \(High Price 14 - Low Price 14\) 
+
+D = MA of K
+
+J = K - D
 
 
 
