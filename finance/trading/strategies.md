@@ -20,7 +20,9 @@ moving average convergence/divergence
 
 ## RSI
 
-## Donchian Chanel Buy at Sell at
+## Bollinger Band
+
+## Donchian Chanel
 
 
 
