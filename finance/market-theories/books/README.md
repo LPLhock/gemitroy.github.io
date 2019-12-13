@@ -1,6 +1,6 @@
 # Books
 
-## **Investment - Classic**
+## **Investment**
 
 #### 华尔街随机漫步 A Random Walk down Wall Street 
 
@@ -28,7 +28,11 @@
 
 * 大众投资
 
-## **Trading - Classic**
+#### 投资策略实战分析 What works on Wall Street
+
+
+
+## **Trading**
 
 #### 金融怪杰 Market Wizards
 
@@ -42,13 +46,21 @@
 
 * 埃德温•勒菲弗
 
+#### 海龟交易法则 Way of The Turtle
 
+* Curtis Faith
+
+#### 股市趋势技术分析 Technical Analysis of Stock Trends
+
+* Robert D. Edwards
+
+#### 高胜算操盘 High Probability Trading : Take the Steps to Become a Successful Trader
+
+* Marcel Link
 
 ## Trading - TA
 
-#### Technical Analysis Using Multiple Timeframes
-
-#### High probability trading : take the steps to become a successful trader
+#### Technical Analysis Using Multiple Time Frames
 
 #### Technical Analysis: The Complete Resource for Financial Market Technicians
 
