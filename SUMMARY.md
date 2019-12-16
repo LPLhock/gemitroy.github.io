@@ -6,13 +6,6 @@
 
 * [Financial Market](finance/market-theories/README.md)
   * [Theories](finance/market-theories/theories.md)
-  * [Books](finance/market-theories/books/README.md)
-    * [Market Wizards](finance/market-theories/books/market-wizards.md)
-    * [What Works on Wall Street](finance/market-theories/books/what-works-on-wall-street.md)
-    * [Way of the Turtle](finance/market-theories/books/way-of-the-turtle.md)
-    * [High Probability Trading](finance/market-theories/books/high-probability-trading.md)
-    * [The Little Book That Still Beats the Market](finance/market-theories/books/the-little-book-that-still-beats-the-market.md)
-    * [Technical Analysis of Stock Trends](finance/market-theories/books/technical-analysis-of-stock-trends.md)
   * [Terms](finance/market-theories/terms.md)
   * [Brokerage](finance/market-theories/brokerage.md)
   * [Practices](finance/market-theories/practices.md)
@@ -23,6 +16,14 @@
   * [Exchange List](finance/btc-trade/exchange-list.md)
   * [Auto Trade](finance/btc-trade/auto-trade.md)
   * [Strategy](finance/btc-trade/strategy.md)
+* [Books](finance/books/README.md)
+  * [Market Wizards](finance/books/market-wizards.md)
+  * [What Works on Wall Street](finance/books/what-works-on-wall-street.md)
+  * [Way of the Turtle](finance/books/way-of-the-turtle.md)
+  * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
+  * [High Probability Trading](finance/books/high-probability-trading.md)
+  * [The Little Book That Still Beats the Market](finance/books/the-little-book-that-still-beats-the-market.md)
+  * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
 
 ## Computer Science
 
