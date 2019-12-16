@@ -8,6 +8,14 @@
 * 有效市场假说： 当前的价格已经充分消化了市场所有信息，同时价格会对新信息快速做出反应 
 * 行为经济学： 当前价格的非理性表现
 
+#### 股市稳赚 The Little Book That Still Beats the Market
+
+* oel Greenblatt
+
+#### 股票大作手回忆录 Reminiscences of a Stock Operator
+
+* 埃德温•勒菲弗
+
 #### 聪明的投资者 The intelligent investor
 
 * 格雷厄姆 
@@ -42,9 +50,13 @@
 
 * 杰克•施瓦格
 
-#### 股票大作手回忆录 Reminiscences of a Stock Operator
+#### Stock Market Wizards
 
-* 埃德温•勒菲弗
+* 杰克•施瓦格
+
+#### Hedge Fund Market Wizards: How Winning Traders Win
+
+* 杰克•施瓦格
 
 #### 海龟交易法则 Way of The Turtle
 
@@ -59,8 +71,6 @@
 * Marcel Link
 
 ## Trading - TA
-
-#### The Little Book That Still Beats the Market
 
 **Technical Analysis of the Financial Markets**
 

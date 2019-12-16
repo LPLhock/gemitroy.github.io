@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Menu](README.md)
+* [Content](README.md)
 
 ## Finance
 
@@ -11,6 +11,7 @@
     * [What Works on Wall Street](finance/market-theories/books/what-works-on-wall-street.md)
     * [Way of the Turtle](finance/market-theories/books/way-of-the-turtle.md)
     * [High Probability Trading](finance/market-theories/books/high-probability-trading.md)
+    * [The Little Book That Still Beats the Market](finance/market-theories/books/the-little-book-that-still-beats-the-market.md)
     * [Technical Analysis of Stock Trends](finance/market-theories/books/technical-analysis-of-stock-trends.md)
   * [Terms](finance/market-theories/terms.md)
   * [Brokerage](finance/market-theories/brokerage.md)
@@ -18,7 +19,7 @@
 * [Trading](finance/trading/README.md)
   * [Technical Indicator](finance/trading/strategies.md)
   * [Strategy](finance/trading/strategy.md)
-* [BTC Trade](finance/btc-trade/README.md)
+* [Cryptocurrency](finance/btc-trade/README.md)
   * [Exchange List](finance/btc-trade/exchange-list.md)
   * [Auto Trade](finance/btc-trade/auto-trade.md)
   * [Strategy](finance/btc-trade/strategy.md)
