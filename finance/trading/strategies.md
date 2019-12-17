@@ -28,6 +28,10 @@ Middle Line = \(Upper Line - Lower Line\) / 2
 
 3. Histogram = MACD - Signal line
 
+### CCI \(Commodity Channel Index\)
+
+\(price - SMA\) / \(0.015 x Mean Deviation\)
+
 ### RSI \(Relative Strength Index\)
 
 Ratio of n candles positive price change and negative price change

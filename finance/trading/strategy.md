@@ -1,22 +1,30 @@
 # Strategy
 
-#### Turtle Trade
+### Turtle Trade
 
 坚定策略
 
 寻求概率优势
 
-#### Scalping
+### Scalping
 
-#### 拐点力学
+Sell almost immediately after a trade becomes profitable
 
-#### 多周期确认
+### 拐点力学
 
-大周期右侧，小周期左侧
+### Pair Trade
 
-大周期左侧， 小周期右侧
+Bet on 2 correlated asset convergence.
 
-#### 经验
+Short the diverged up one and long the diverged down one
+
+### Stock/Index Arbitrage
+
+### Commodity Diff Periods Arbitrage
+
+
+
+### 经验
 
 小止损，大盈利
 
