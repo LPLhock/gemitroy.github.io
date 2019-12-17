@@ -17,6 +17,7 @@
   * [Auto Trade](finance/btc-trade/auto-trade.md)
   * [Strategy](finance/btc-trade/strategy.md)
 * [Books](finance/books/README.md)
+  * [A Random Walk down Wall Street](finance/books/a-random-walk-down-wall-street.md)
   * [What Works on Wall Street](finance/books/what-works-on-wall-street.md)
   * [The Little Book That Still Beats the Market](finance/books/the-little-book-that-still-beats-the-market.md)
   * [Market Wizards](finance/books/market-wizards.md)
