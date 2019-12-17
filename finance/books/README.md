@@ -10,7 +10,7 @@
 
 #### 股市稳赚 The Little Book That Still Beats the Market
 
-* oel Greenblatt
+* Joel Greenblatt
 
 #### 股票大作手回忆录 Reminiscences of a Stock Operator
 
@@ -37,8 +37,6 @@
 * 大众投资
 
 #### 投资策略实战分析 What works on Wall Street
-
-
 
 ## **Trading**
 
@@ -70,15 +68,19 @@
 
 * Marcel Link
 
-## Trading - TA
+**金融市场技术分析 Technical Analysis of the Financial Markets**
 
-**Technical Analysis of the Financial Markets**
+* John J. Murphy
 
-#### Technical Analysis Using Multiple Time Frames
+####  _多_周期技術分析 Technical Analysis Using Multiple Time Frames
+
+* Brian Shannon
+
+## Trading - Others
 
 #### Technical Analysis: The Complete Resource for Financial Market Technicians
 
-#### Trading Systems: A New Approach to System Development and Portfolio Optimisation
+#### Trading Systems: A New Approach to System Development and Portfolio Optimization
 
 #### Trading Systems That Work: Building and Evaluating Effective Trading Systems
 
