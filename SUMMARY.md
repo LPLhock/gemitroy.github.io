@@ -25,6 +25,7 @@
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
+  * [The Crowd](finance/books/the-crowd.md)
 
 ## Computer Science
 
