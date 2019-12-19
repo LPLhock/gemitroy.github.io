@@ -32,6 +32,62 @@ Quantify:
    3. 如果P2很大，long A，long B
    4. 如果P2很小，short A，short B
 
+```text
+#!/bin/python
+
+import csv
+import operator
+import sys
+from decimal import Decimal
+
+import ms.version
+
+def main():
+    with open('ohlc/btc.csv', mode='r') as csv_a:
+        reader_a = csv.reader(csv_a)
+        list_a = list(reader_a)
+    print(list_a)
+
+    with open('ohlc/altcoin.csv', mode='r') as csv_b:
+        reader_b = csv.reader(csv_b)
+        list_b = list(reader_b)
+    print(list_b)
+
+    cp_a = []
+    close_a = []
+    for row in list_a[1:]:
+        pct = (float(row[4]) - float(row[1])) * 100.0 / float(row[1])
+        cp_a.append(round(pct, 2))
+        close_a.append(float(row[4]))
+    print(cp_a)
+
+    cp_b = []
+    close_b = []
+    for row in list_b[1:]:
+        pct = (float(row[4]) - float(row[1])) * 100.0 / float(row[1])
+        cp_b.append(round(pct, 2))
+        close_b.append(float(row[4]))
+    print(cp_b)
+
+    diff_ab = map(operator.sub, cp_a, cp_b)
+    print(diff_ab)
+
+    cov_ab = cov(close_a, close_b)
+    print(cov_ab)
+
+    # append to result.txt
+    # btc-altcoin, cov, p1, p2
+
+def cov(x, y):
+    mean_x = sum(x) / len(x)
+    mean_y = sum(y) / len(y)
+    return sum((a - mean_x) * (b - mean_y) for (a,b) in zip(x,y)) / len(x)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
+```
+
 ### Stock/Index Arbitrage
 
 ### Commodity Diff Periods Arbitrage
