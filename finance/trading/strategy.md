@@ -69,7 +69,7 @@ def main():
         close_b.append(float(row[4]))
     print(cp_b)
 
-    diff_ab = map(operator.sub, cp_a, cp_b)
+    diff_ab = map(operator.sub, cp_b, cp_a)
     print(diff_ab)
 
     cov_ab = cov(close_a, close_b)
