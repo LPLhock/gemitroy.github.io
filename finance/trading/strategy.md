@@ -84,8 +84,8 @@ def main():
                 positive_count += 1
             if (a + b > 0):                
                 negative_count += 1
-        p1 = positive_count * 100.0 / total_count
-        p2 = negative_count * 100.0 / total_count
+        p1 = int(positive_count * 100 / total_count)
+        p2 = int(negative_count * 100 / total_count)
         print("Probalility of CP_B > CP_A: " + str(p1))
         print("Probalility of CP_A + CP_B > 0: " + str(p2))
 
@@ -109,7 +109,8 @@ def main():
 def cov(x, y):
     mean_x = sum(x) / len(x)
     mean_y = sum(y) / len(y)
-    return sum((a - mean_x) * (b - mean_y) for (a,b) in zip(x,y)) / len(x)
+    covariance = sum((a - mean_x) * (b - mean_y) for (a,b) in zip(x,y)) / len(x)
+    return int(covariance)
 
 #input: time,open,high,low.close
 def getCandleListFromCsvFile(candle_csv):
@@ -142,6 +143,7 @@ def getPairsFromCoinListFile(filename):
     return list(pairs)
 
 def applyStrategy(cov_ab, pa, pb, coin_a, coin_b):
+    strategy = "none"
     if (cov_ab > 0):
         if (pa >= 80.0):
             strategy = "long ",coin_b," / short ",coin_a
