@@ -39,50 +39,121 @@ import csv
 import operator
 import sys
 from decimal import Decimal
+from itertools import combinations
+import json
+import argparse
 
-import ms.version
 
 def main():
-    with open('ohlc/btc.csv', mode='r') as csv_a:
-        reader_a = csv.reader(csv_a)
-        list_a = list(reader_a)
-    print(list_a)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", type=str,help="The path to the coin list file", required=True)
+    args = parser.parse_args()
 
-    with open('ohlc/altcoin.csv', mode='r') as csv_b:
-        reader_b = csv.reader(csv_b)
-        list_b = list(reader_b)
-    print(list_b)
+    coin_list_file = args.f
+    coin_pairs = getPairsFromCoinListFile(coin_list_file)
 
-    cp_a = []
-    close_a = []
-    for row in list_a[1:]:
-        pct = (float(row[4]) - float(row[1])) * 100.0 / float(row[1])
-        cp_a.append(round(pct, 2))
-        close_a.append(float(row[4]))
-    print(cp_a)
+    for (coin_a, coin_b) in coin_pairs:
+        print("calculating pair of " + coin_a + " and " + coin_b)
+    
+        #get candles of coin A and B
+        if ("csv" in coin_list_file):
+            list_a = getCandleListFromCsvFile(coin_a)
+            list_b = getCandleListFromCsvFile(coin_b)
+        else:
+            list_a = getCandleListFromJsonFile(coin_a)
+            list_b = getCandleListFromJsonFile(coin_b)
+        print(list_a)
+        print(list_b)
 
-    cp_b = []
-    close_b = []
-    for row in list_b[1:]:
-        pct = (float(row[4]) - float(row[1])) * 100.0 / float(row[1])
-        cp_b.append(round(pct, 2))
-        close_b.append(float(row[4]))
-    print(cp_b)
+        total_count = len(list_a)
+        print("Candle size: ",str(total_count))
 
-    diff_ab = map(operator.sub, cp_b, cp_a)
-    print(diff_ab)
+        #price change percentage of coin A and B
+        close_a, cp_a = getCloseAndCpFromCandleList(list_a)
+        close_b, cp_b = getCloseAndCpFromCandleList(list_b)
+        print("Price Change Percentage of ",coin_a)
+        print(cp_a)
+        print("Price Change Percentage of ",coin_b)
+        print(cp_b)
 
-    cov_ab = cov(close_a, close_b)
-    print(cov_ab)
+        #positive cov, propability of situation 1 and 2
+        positive_count = 0
+        negative_count = 0
+        for a,b in zip (cp_a, cp_b):
+            if (b > a):
+                positive_count += 1
+            if (a + b > 0):                
+                negative_count += 1
+        p1 = positive_count * 100.0 / total_count
+        p2 = negative_count * 100.0 / total_count
+        print("Probalility of CP_B > CP_A: " + str(p1))
+        print("Probalility of CP_A + CP_B > 0: " + str(p2))
 
-    # append to result.txt
-    # btc-altcoin, cov, p1, p2
+        #covariance
+        cov_ab = cov(close_a, close_b)
+        print("Covariance of A and B: " + str(cov_ab))
 
+        #strategy suggestion
+        strategy = applyStrategy(cov_ab, p1, p2, coin_a, coin_b)
+        print("Suggested strategy is: ",strategy)
+
+        #ouput result to file
+        # btc-altcoin, cov, p1, p2, strategy
+        result = coin_a,"-",coin_b,",",str(cov_ab),",",str(p1),",",str(p2),",",strategy,"\r\n"
+        result = ''.join(result)
+    
+        f = open('result.txt', 'a+')
+        f.write(result)
+
+#cov function
 def cov(x, y):
     mean_x = sum(x) / len(x)
     mean_y = sum(y) / len(y)
     return sum((a - mean_x) * (b - mean_y) for (a,b) in zip(x,y)) / len(x)
 
+#input: time,open,high,low.close
+def getCandleListFromCsvFile(candle_csv):
+    with open('data/'+candle_csv) as csv_file:
+        reader = csv.reader(csv_file)
+        candle_list =  list(reader)
+    return candle_list[1:]
+
+#input: time,open,high,low.close,volumn,time,...
+def getCandleListFromJsonFile(candle_json):
+    with open('data/'+candle_json) as json_file:
+        candle_list = json.load(json_file)
+        return candle_list
+
+#input: [time,open,high,low.close]
+def getCloseAndCpFromCandleList(candles):
+    change_percentage = []
+    close_price = []
+    for row in candles:
+        pct = (float(row[4]) - float(row[1])) * 100.0 / float(row[1])
+        change_percentage.append(round(pct, 2))
+        close_price.append(float(row[4]))
+    return close_price, change_percentage
+
+#input: a,b,c
+#output: [(a,b),(a,c),(b,c)]
+def getPairsFromCoinListFile(filename):
+    coins = [line.rstrip('\n') for line in open(filename)]
+    pairs = combinations(coins, 2)
+    return list(pairs)
+
+def applyStrategy(cov_ab, pa, pb, coin_a, coin_b):
+    if (cov_ab > 0):
+        if (pa >= 80.0):
+            strategy = "long ",coin_b," / short ",coin_a
+        if (pa <= 20.0):
+            strategy = "long ",coin_a," / short ",coin_b
+      
+    if (cov_ab < 0):
+        if (pb >= 80.0):
+            strategy = "long ",coin_a," / long ",coin_b
+        if (pb <= 20.0):
+            strategy = "short ",coin_a," / short ",coin_b
+    return ''.join(strategy)
 
 if __name__ == '__main__':
     sys.exit(main())
