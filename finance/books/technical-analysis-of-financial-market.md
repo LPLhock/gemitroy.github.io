@@ -2,5 +2,5 @@
 description: John Murphy
 ---
 
-# Technical Analysis of Financial Market
+# Technical Analysis of the Financial Market
 

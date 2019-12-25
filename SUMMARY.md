@@ -23,7 +23,7 @@
   * [The Little Book That Still Beats the Market](finance/books/the-little-book-that-still-beats-the-market.md)
   * [Way of the Turtle](finance/books/way-of-the-turtle.md)
   * [Market Wizards](finance/books/market-wizards.md)
-  * [Technical Analysis of Financial Market](finance/books/technical-analysis-of-financial-market.md)
+  * [Technical Analysis of the Financial Market](finance/books/technical-analysis-of-financial-market.md)
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
