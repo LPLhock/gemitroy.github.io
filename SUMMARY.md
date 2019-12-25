@@ -17,15 +17,16 @@
   * [Auto Trade](finance/btc-trade/auto-trade.md)
   * [Strategy](finance/btc-trade/strategy.md)
 * [Books](finance/books/README.md)
+  * [The Crowd](finance/books/the-crowd.md)
   * [A Random Walk down Wall Street](finance/books/a-random-walk-down-wall-street.md)
   * [What Works on Wall Street](finance/books/what-works-on-wall-street.md)
   * [The Little Book That Still Beats the Market](finance/books/the-little-book-that-still-beats-the-market.md)
-  * [Market Wizards](finance/books/market-wizards.md)
   * [Way of the Turtle](finance/books/way-of-the-turtle.md)
+  * [Market Wizards](finance/books/market-wizards.md)
+  * [Technical Analysis of Financial Market](finance/books/technical-analysis-of-financial-market.md)
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
-  * [High Probability Trading](finance/books/high-probability-trading.md)
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
-  * [The Crowd](finance/books/the-crowd.md)
+  * [High Probability Trading](finance/books/high-probability-trading.md)
 
 ## Computer Science
 
