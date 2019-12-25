@@ -10,7 +10,7 @@
 
 Sell almost immediately after a trade becomes profitable
 
-### 拐点力学
+### MACD Strength Wave
 
 ### Pair Trade
 
