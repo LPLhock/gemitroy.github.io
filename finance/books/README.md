@@ -56,6 +56,14 @@
 
 * 杰克•施瓦格
 
+**金融市场技术分析 Technical Analysis of the Financial Markets**
+
+* John J. Murphy
+
+#### _多_周期技術分析 Technical Analysis Using Multiple Time Frames
+
+* Brian Shannon
+
 #### 海龟交易法则 Way of The Turtle
 
 * Curtis Faith
@@ -67,14 +75,6 @@
 #### 高胜算操盘 High Probability Trading : Take the Steps to Become a Successful Trader
 
 * Marcel Link
-
-**金融市场技术分析 Technical Analysis of the Financial Markets**
-
-* John J. Murphy
-
-####  _多_周期技術分析 Technical Analysis Using Multiple Time Frames
-
-* Brian Shannon
 
 ## Trading - Others
 
