@@ -5,8 +5,6 @@
 #### 华尔街随机漫步 A Random Walk down Wall Street 
 
 * 马尔基尔 
-* 有效市场假说： 当前的价格已经充分消化了市场所有信息，同时价格会对新信息快速做出反应 
-* 行为经济学： 当前价格的非理性表现
 
 #### 股市稳赚 The Little Book That Still Beats the Market
 
