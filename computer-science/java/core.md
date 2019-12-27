@@ -1,6 +1,20 @@
 # Core
 
-## General 
+### Statement
+
+class can only be public/default 
+
+only return type difference is not polymorphism, throws compile error.
+
+Class will not create default non-para constructer if any constructer is defined.
+
+Long/Double read/write is not atomic operation on 32bit cpu 
+
+Java param is passed by value \(a copy of the value\)
+
+Class.newInstance\(\) invokes the no-arg constructor
+
+### General 
 
 access modifier 
 
@@ -8,27 +22,17 @@ super/interface type as parameter in method definition
 
 protected 
 
-class can only be public/default 
-
 interface 
-
-only return type difference is not polymorphism, throws compile error.
-
-Class will not create default non-para constructer if any constructer is defined.
 
 default method 
 
 static method 
 
-transient 
+transient: prevent serialization 
 
 custom annotation 
 
 volatile usage 
-
-Long/Double read/write is not atomic operation on 32bit cpu 
-
-Java Param Pass by value
 
 parameterized argument 
 
@@ -76,7 +80,15 @@ Each class has a single class object, constructed by JVM when loaded by class lo
 
 ### java.util.function
 
+Functional Interface
+
 ### Lambda
+
+### Method Reference
+
+```text
+System.out::println
+```
 
 ### Exception
 

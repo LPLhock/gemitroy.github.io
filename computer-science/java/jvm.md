@@ -26,6 +26,10 @@ jmap
 
 visualVM
 
+### Reordering
+
+code might be reordered at compile time
+
 ## GC
 
 ## Root
