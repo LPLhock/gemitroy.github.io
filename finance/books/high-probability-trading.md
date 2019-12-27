@@ -1,21 +1,5 @@
 # High Probability Trading
 
-### 技术分析
-
-#### 多重时间框架
-
-#### 顺势交易
-
-#### 震荡交易
-
-Indicators: Stochastic Oscillator, RSI, MACD
-
-#### 突破与反转
-
-#### 出场与止损
-
-### 其它
-
 #### 消息面交易的弊端
 
 > 你所听到或看到的报道，未必全然可信。重大新闻或报道，往往是精明交易员准备出场或终止走势的信号。因为这些新闻可能在几天或几个星期之前就已经反映在市场上了
@@ -28,7 +12,7 @@ Indicators: Stochastic Oscillator, RSI, MACD
 
 #### 交易计划
 
-> 入场点、出场点、轻仓位
+> 入场点、出场点、仓位
 >
 > 不能朝令夕改
 
@@ -38,8 +22,6 @@ Indicators: Stochastic Oscillator, RSI, MACD
 
 #### 纪律性
 
-> 耐心等待机会高概率机会的出现
->
 > 不要过度交易
 >
 > 交易要有计划

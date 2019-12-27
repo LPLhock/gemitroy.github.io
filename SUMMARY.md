@@ -25,6 +25,7 @@
   * [Market Wizards](finance/books/market-wizards.md)
   * [Technical Analysis of the Financial Market](finance/books/technical-analysis-of-financial-market.md)
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
+  * [How to Day Trade for a Living](finance/books/how-to-day-trade-for-a-living.md)
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
 

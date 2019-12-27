@@ -52,5 +52,7 @@ D = MA of K
 
 J = K - D
 
+### ULT \(Ultimate Oscillator\)
+
 
 

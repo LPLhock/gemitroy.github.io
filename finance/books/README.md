@@ -5,8 +5,6 @@
 #### 华尔街随机漫步 A Random Walk down Wall Street 
 
 * 马尔基尔 
-* 有效市场假说： 当前的价格已经充分消化了市场所有信息，同时价格会对新信息快速做出反应 
-* 行为经济学： 当前价格的非理性表现
 
 #### 股市稳赚 The Little Book That Still Beats the Market
 
@@ -56,6 +54,14 @@
 
 * 杰克•施瓦格
 
+**金融市场技术分析 Technical Analysis of the Financial Markets**
+
+* John J. Murphy
+
+#### _多_周期技術分析 Technical Analysis Using Multiple Time Frames
+
+* Brian Shannon
+
 #### 海龟交易法则 Way of The Turtle
 
 * Curtis Faith
@@ -64,17 +70,13 @@
 
 * Robert D. Edwards
 
+#### How to Day Trade for a Living
+
+* Andrew Aziz
+
 #### 高胜算操盘 High Probability Trading : Take the Steps to Become a Successful Trader
 
 * Marcel Link
-
-**金融市场技术分析 Technical Analysis of the Financial Markets**
-
-* John J. Murphy
-
-####  _多_周期技術分析 Technical Analysis Using Multiple Time Frames
-
-* Brian Shannon
 
 ## Trading - Others
 

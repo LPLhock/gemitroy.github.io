@@ -10,15 +10,13 @@
 
 Sell almost immediately after a trade becomes profitable
 
-### 拐点力学
+### MACD Strength Wave
 
-### Pair Trade
+### Pair Trade \(Bet on 2 correlated assets\)
 
-Bet on 2 correlated asset convergence.
+#### Strategy A: 
 
 Short the diverged up one and long the diverged down one
-
-Quantify:
 
 1. 获得近3个月内的D/12H数据
 2. 计算 change percentage CP
@@ -34,6 +32,15 @@ Quantify:
 
 ```text
 #!/bin/python
+
+import csv
+import operator
+import sys
+from decimal import Decimal
+from itertools import combinations
+import json
+import argparse
+
 
 import csv
 import operator
@@ -79,7 +86,7 @@ def main():
         #positive cov, propability of situation 1 and 2
         positive_count = 0
         negative_count = 0
-        for a,b in zip (cp_a, cp_b):
+        for a,b in zip(cp_a, cp_b):
             if (b > a):
                 positive_count += 1
             if (a + b > 0):                
@@ -90,7 +97,8 @@ def main():
         print("Probalility of CP_A + CP_B > 0: " + str(p2))
 
         #covariance
-        cov_ab = cov(close_a, close_b)
+        #cov_ab = cov(close_a, close_b)
+        cov_ab = coPercentage(cp_a, cp_b)
         print("Covariance of A and B: " + str(cov_ab))
 
         #strategy suggestion
@@ -111,6 +119,14 @@ def cov(x, y):
     mean_y = sum(y) / len(y)
     covariance = sum((a - mean_x) * (b - mean_y) for (a,b) in zip(x,y)) / len(x)
     return int(covariance)
+
+def coPercentage(x, y):
+    same_sign_cnt = 0
+    total_count = len(x)
+    for a, b in zip(x, y):
+        if (a==b | a*b > 0):
+            same_sign_cnt += 1
+    return same_sign_cnt * 100.0 / total_count
 
 #input: time,open,high,low.close
 def getCandleListFromCsvFile(candle_csv):
@@ -144,13 +160,13 @@ def getPairsFromCoinListFile(filename):
 
 def applyStrategy(cov_ab, pa, pb, coin_a, coin_b):
     strategy = "none"
-    if (cov_ab > 0):
+    if (cov_ab > 60.0):
         if (pa >= 80.0):
             strategy = "long ",coin_b," / short ",coin_a
         if (pa <= 20.0):
             strategy = "long ",coin_a," / short ",coin_b
       
-    if (cov_ab < 0):
+    if (cov_ab < 40.0):
         if (pb >= 80.0):
             strategy = "long ",coin_a," / long ",coin_b
         if (pb <= 20.0):
@@ -160,6 +176,12 @@ def applyStrategy(cov_ab, pa, pb, coin_a, coin_b):
 if __name__ == '__main__':
     sys.exit(main())
 ```
+
+#### Strategy B:
+
+When 2 related assets are diverged, it will converge again
+
+
 
 ### Stock/Index Arbitrage
 
