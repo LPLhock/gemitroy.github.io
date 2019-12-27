@@ -55,4 +55,6 @@
 * [Web Tech](computer-science/web-tech.md)
 * [Big Data](computer-science/big-data/README.md)
   * [Spark](computer-science/big-data/spark.md)
+* [Tools](computer-science/tools/README.md)
+  * [Git](computer-science/tools/git.md)
 

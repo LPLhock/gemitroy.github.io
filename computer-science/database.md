@@ -41,6 +41,8 @@ JSON + REST
 
 inverted index to optimize read 
 
+ELK
+
 ## MongoDB
 
 document store, schema-less, indexable only one index document\(json\) = row join on write, do not use on read. so read is faster than RMDB

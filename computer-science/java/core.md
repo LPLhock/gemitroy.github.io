@@ -4,6 +4,8 @@
 
 access modifier 
 
+super/interface type as parameter in method definition
+
 protected 
 
 class can only be public/default 
@@ -75,4 +77,10 @@ Each class has a single class object, constructed by JVM when loaded by class lo
 ### java.util.function
 
 ### Lambda
+
+### Exception
+
+Customize:
+
+extends Exception/RuntimeException and call super\(message\)
 

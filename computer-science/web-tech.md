@@ -21,9 +21,11 @@ SSL
 
 ## Misc
 
-CORS
+跨站请求攻击
 
-* 防御: 验证HTTP Referer字段 加Token JSONP 
+* 防御：验证HttpReferer字段； 加Token
+* JSONP：解决跨站请求 GET only；remote server return function \({json data}\)
+* CORS：跨域资源分享
 
 AJAX 
 
