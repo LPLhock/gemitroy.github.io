@@ -189,7 +189,7 @@ When 2 related assets are diverged, it will converge again
 
 
 
-### 经验
+### Thoughts
 
 小止损，大盈利
 
@@ -198,6 +198,8 @@ When 2 related assets are diverged, it will converge again
 大周期和小周期策略应该有不同的止盈止损比率
 
 分散仓位
+
+日内交易最好做右侧，不宜做左侧
 
 ## 
 
