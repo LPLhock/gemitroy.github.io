@@ -181,8 +181,6 @@ if __name__ == '__main__':
 
 When 2 related assets are diverged, it will converge again
 
-
-
 ### Stock/Index Arbitrage
 
 ### Commodity Diff Periods Arbitrage
