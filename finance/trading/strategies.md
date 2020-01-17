@@ -54,5 +54,11 @@ J = K - D
 
 ### ULT \(Ultimate Oscillator\)
 
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/af15c3c096a8ff64e4b0a629f5464d148b059010)
 
+![](../../.gitbook/assets/image.png)
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/2353f1006068115ad1b6db41d4f455fedc5678b8)
+
+30 ~ 70
 
