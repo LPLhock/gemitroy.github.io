@@ -36,7 +36,17 @@ Middle Line = \(Upper Line - Lower Line\) / 2
 
 Ratio of n candles positive price change and negative price change
 
-look back period: n candles
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/99af97fed0692fbc639af6c851a67b52b16dec03)
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/0020972ef07f90343ffc3ce3f4e26a4b331a2fc1)
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/6ac6e2ddc93d7aa1cb587a8e386998bfc2890eda)
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/b5a31f3482b782ff249681121280ce1527e964ed)
+
+Oversold = 30
+
+Overbought = 70
 
 ### MFI \(Money Flow Index\)
 
@@ -60,5 +70,7 @@ J = K - D
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/2353f1006068115ad1b6db41d4f455fedc5678b8)
 
-30 ~ 70
+Oversold = 30
+
+Overbought = 70
 
