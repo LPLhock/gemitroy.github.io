@@ -60,7 +60,7 @@ K = \(Current Price - Low Price 14\) / \(High Price 14 - Low Price 14\)
 
 D = MA of K
 
-J = K - D
+J = 3K - 2D
 
 ### ULT \(Ultimate Oscillator\)
 
