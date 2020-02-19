@@ -1,6 +1,18 @@
-# Pair Trade
+# Strategy
 
-### 配对交易 - Bet on 2 correlated assets
+### Turtle Trade
+
+坚定策略
+
+寻求概率优势
+
+### Scalping
+
+Sell almost immediately after a trade becomes profitable
+
+### MACD Strength Wave
+
+### Pair Trade \(Bet on 2 correlated assets\)
 
 #### Strategy A: 
 
@@ -168,4 +180,24 @@ if __name__ == '__main__':
 #### Strategy B:
 
 When 2 related assets are diverged, it will converge again
+
+### Stock/Index Arbitrage
+
+### Commodity Diff Periods Arbitrage
+
+
+
+### Thoughts
+
+小止损，大盈利
+
+入场时必须想好出场点和入场点
+
+大周期和小周期策略应该有不同的止盈止损比率
+
+分散仓位
+
+日内交易最好做右侧，不宜做左侧
+
+## 
 
