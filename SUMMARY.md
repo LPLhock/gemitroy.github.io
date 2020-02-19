@@ -12,7 +12,7 @@
 * [Trading](finance/trading/README.md)
   * [Technical Indicator](finance/trading/strategies.md)
   * [Strategy](finance/trading/strategy/README.md)
-    * [Pair Trade](finance/trading/trading-diary.md)
+    * [Pair Trade](finance/trading/strategy/trading-diary.md)
     * [Reversal Trade](finance/trading/strategy/reversal-trade.md)
 * [Cryptocurrency](finance/crypto/README.md)
   * [Exchange List](finance/crypto/exchange-list.md)
