@@ -1,14 +1,12 @@
 # High Probability Trading
 
-## 重点章节
-
-### 多重时间框架
+## 多重时间框架
 
 观察走势时必须同时留意成交量
 
 多周期盯盘
 
-### 顺势交易
+## 顺势交易
 
 SMA vs EMA
 
@@ -18,11 +16,11 @@ SMA vs EMA
 >
 > 精明的交易者都知道，租好的进场点位在价格折返到支撑区而开始回升时。虽然很多人也想针对折返走势进行交易，但是折返走势与主要趋势的发展方向相反，属于胜算较低的交易
 
-### 震荡交易
+## 震荡交易
 
-Indicators: Stochastic Oscillator, RSI, MACD
+Indicators: KDJ, RSI, MACD
 
-### 突破-最简单的顺势交易系统
+## 突破-最简单的顺势交易系统
 
 #### 突破的形成
 
@@ -36,7 +34,7 @@ Indicators: Stochastic Oscillator, RSI, MACD
 
 #### 分析成交量
 
-### 反转-逆势交易
+## 反转-逆势交易
 
 #### 反转的成因
 
@@ -51,7 +49,7 @@ Indicators: Stochastic Oscillator, RSI, MACD
 
 #### 反转的操作
 
-### 出场与止损
+## 出场与止损
 
 让盈利奔跑 - 操作：跟踪至盈止损
 
