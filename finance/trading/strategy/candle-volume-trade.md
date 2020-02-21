@@ -16,15 +16,7 @@ from decimal import Decimal
 from itertools import combinations
 import json
 import argparse
-
-
-import csv
-import operator
-import sys
-from decimal import Decimal
-from itertools import combinations
-import json
-import argparse
+from datetime import datetime
 
 
 def main():
@@ -48,39 +40,41 @@ def main():
 
         open_position = False
 
-        for i in range(candle_size):
+        for i in range(candle_size - 1):
             candle_a = candle_list[i]
             candle_b = candle_list[i+1]
             close_price_a = float(candle_a[4])
-            close_price_b = float(candel_b[4])
+            close_price_b = float(candle_b[4])
             vol_a = float(candle_a[5])
             vol_b = float(candle_b[5])
-            time = str(candel_b[0])
+            trade_time = datetime.fromtimestamp(candle_b[0]/1000)
             
             if (open_position == False):
-                if (close_price_b > close_price_a && vol_b > vol_a):
+                if (close_price_b > close_price_a and vol_b > vol_a):
                     open_position = True
                     position_open_price_list.append(close_price_b)
-                    print(coin_file + " - Open long trade at: ", str(time))
+                    print(coin_file + " - Open long trade at price: " + str(close_price_b) + " at time: " + str(trade_time))
             if (open_position == True):
-                if (close_price_b < close_price_a && vol_b > vol_a):
+                if (close_price_b < close_price_a and vol_b > vol_a):
                     open_position = False
-                    position_open_price_list.append(close_price_b)
-                    print(coin_file + " - Close long trade at: ", str(time))
+                    position_close_price_list.append(close_price_b)
+                    print(coin_file + " - Close long trade at price: " + str(close_price_b) + " at time: " + str(trade_time))
 
-        print(coin_file + " - Long open count: ", str(len(position_open_price_list)))
-        print(coin_file + " - Long open count: ", str(len(position_close_price_list)))
+        open_position_count = len(position_open_price_list)
+        close_position_count = len(position_close_price_list)
+        print(coin_file + " - Long open count: " + str(open_position_count))
+        print(coin_file + " - Long close count: " + str(close_position_count))
 
         # summarize profit
         profit_sum = 0
-        for i in range(len(position_close_price_list)):
-            profit_percentage = (position_close_price_list[i] - position_open_price_list[i]) / position_open_price_list[i])
+        for i in range(close_position_count):
+            profit_percentage = (position_close_price_list[i] - position_open_price_list[i]) / position_close_price_list[i]
             profit_sum += profit_percentage
 
-        print(coin_file + " - Profit sum: " + profit_sum)
+        print(coin_file + " - Profit sum: " + str(profit_sum))
         # ouput result to file
         # coin_name, long_open_count,profit_sum
-        result = coin_file,",",len(position_open_price_list),",",profit_sum,"\r\n"
+        result = coin_file,",",str(open_position_count),",",str(profit_sum),"\r\n"
         result = ''.join(result)
     
         f = open('result.txt', 'a+')
