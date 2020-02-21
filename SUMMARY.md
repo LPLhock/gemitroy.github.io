@@ -14,6 +14,7 @@
   * [Strategy](finance/trading/strategy.md)
     * [Pair Trade](finance/trading/trading-diary.md)
     * [Reversal Trade](finance/trading/strategy/reversal-trade.md)
+    * [Candle Volume Trade](finance/trading/strategy/candle-volume-trade.md)
 * [Cryptocurrency](finance/crypto/README.md)
   * [Exchange List](finance/crypto/exchange-list.md)
   * [Auto Trade](finance/crypto/auto-trade.md)
@@ -31,6 +32,7 @@
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
   * [华尔街操盘手日记](finance/books/hua-er-jie-cao-pan-shou-ri-ji.md)
+  * [伏击涨停](finance/books/fu-ji-zhang-ting.md)
 
 ## Computer Science <a id="cs"></a>
 
