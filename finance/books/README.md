@@ -74,6 +74,14 @@
 
 * Andrew Aziz
 
+#### Advanced Techniques in Day Trading
+
+* Andrew Aziz
+
+#### How To Swing Trade: A Beginner’s Guide to Trading Tools, Money Management, Rules, Routines and Strategies of a Swing Trader
+
+* Andrew Aziz
+
 #### 高胜算操盘 High Probability Trading : Take the Steps to Become a Successful Trader
 
 * Marcel Link
