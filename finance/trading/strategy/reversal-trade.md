@@ -13,8 +13,6 @@
 * take profit: resistance/MA/VWAP
 * indicator: RSI
 
-1. some
-
 ### 以上涨大趋势为例
 
 1. 前提为明确的强涨势，决定方向为做多
