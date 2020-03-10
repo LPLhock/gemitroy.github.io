@@ -4,9 +4,10 @@ description: Very elementary and practical
 
 # How to Day Trade for a Living
 
-## Key takeaway
+## Key takeaways
 
-Price move are to be seen as a fight between buyer and seller
+* Price move are to be seen as a fight between buyer and seller
+* Lose/reward ration should be at least 1:2
 
 ## A stock scanner
 
