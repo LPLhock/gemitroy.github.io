@@ -1,10 +1,19 @@
 # Reversal Trade
 
-## 逆向交易
-
 {% hint style="info" %}
 大方向仍为顺势
 {% endhint %}
+
+### Trading Plan: 
+
+* enter
+  1. a sudden surge/drop with indecision/reversal candles
+  2. a support/resistance line
+* stop loss:  entry point
+* take profit: resistance/MA/VWAP
+* indicator: RSI
+
+1. some
 
 ### 以上涨大趋势为例
 
