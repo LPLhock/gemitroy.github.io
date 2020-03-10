@@ -32,7 +32,6 @@
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
   * [华尔街操盘手日记](finance/books/hua-er-jie-cao-pan-shou-ri-ji.md)
-  * [伏击涨停](finance/books/fu-ji-zhang-ting.md)
 
 ## Computer Science <a id="cs"></a>
 
