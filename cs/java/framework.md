@@ -57,7 +57,7 @@ autowire injection
 <bean id = "spellChecker" class = "com.SpellChecker"></bean>
 ```
 
-#### Annotation based
+#### Annotation based \(Will be overridden by XML\)
 
 ```text
 -- enable annotation based, not enough
@@ -66,24 +66,49 @@ autowire injection
 <context:component-scan>
 ```
 
-* _@autowire_
+_Bean level_
+
 * _@Component_
 * _@Service_
 * _@Repository_
 
- 
+_Property level_
+
+* _@Autowired \(byType. Inject on constructor, setter or field\)_
+* _@Required_
+* _@Resource\(byName.JSR\)_
+* _@Qualifiter\(used together with other 3, specify the injected bean\)_
 
 ### AOP \(method proxy only\)
 
 * JDK Proxy \(interface based\) 
-* CGLibs \(interface not needed\)
-* compare with AspectJ 
+* CGLibs \(class based\)
+* Spring AOP vs AspectJ 
+* * Spring AOP is dynamic proxy \(JDK or CGlibs\)
+  * AspectJ is static proxy \(compiled before runtime\)
+* Usage: Transaction, Logging, Security
 
-### DataSource 
+### Data access
 
-* DriverManagerDataSource
+#### JdbcTemplate
 
-### Transaction
+* NamedParameterJdbcTemplate
+*  SimpleJdbcTemplate
+* RowMapper
+
+#### JdbcDaoSupport
+
+* already has JdbcTemplate property
+
+#### DataSource 
+
+* DriverManagerDataSource \(no pooling\)
+* Apache DBCP \(pooling\)
+* C3PO \(pooling\)
+
+#### Transaction
+
+#### 
 
 Security Data 
 
@@ -99,11 +124,7 @@ log4j slf4j logback
 
 ### ehcache 
 
-### connection pool 
 
-Apache DBCP 
-
-C3PO 
 
 ## REST 
 
