@@ -1,5 +1,9 @@
 # Agile/DevOps
 
+## Methodology
+
+BDD
+
 ## Tools
 
 * Jenkins

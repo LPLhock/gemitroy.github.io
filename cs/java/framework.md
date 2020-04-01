@@ -1,8 +1,6 @@
-# Framework
+# Spring
 
-## Spring 
-
-### IOC
+## IOC
 
 #### Bean Property:
 
@@ -24,7 +22,7 @@ callback:
 * init-method
 * destroy-method
 
-### DI
+## DI
 
 #### XML based
 
@@ -79,7 +77,7 @@ _Property level_
 * _@Resource\(byName.JSR\)_
 * _@Qualifiter\(used together with other 3, specify the injected bean\)_
 
-### AOP \(method proxy only\)
+## AOP \(method proxy only\)
 
 * JDK Proxy \(interface based\) 
 * CGLibs \(class based\)
@@ -88,7 +86,7 @@ _Property level_
   * AspectJ is static proxy \(compiled before runtime\)
 * Usage: Transaction, Logging, Security
 
-### Data access
+## Data access
 
 #### JdbcTemplate
 
@@ -108,25 +106,17 @@ _Property level_
 
 #### Transaction
 
-#### 
+```text
+<bean id="transactionManager"class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+```
 
-Security Data 
+* @Transactional
+* Propagation = required
+* Isolation level = default \( Use the **default isolation** level of the underlying database\)
 
-Spring Restful is not JAX-RS implementation
+## Security Data 
 
-## Common
-
-### Junit
-
-### Log
-
-log4j slf4j logback 
-
-### ehcache 
-
-
-
-## REST 
-
-design principle use noun use parameter for filter/search/sort use version HATEOAS CXFRest Swagger 
+Spring Restful is not JAX-RS implementation 
 

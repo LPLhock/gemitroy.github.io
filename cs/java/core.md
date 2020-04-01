@@ -68,6 +68,17 @@ PhantomReference
 * wait/notify 
 * reflect
 
+### Enum
+
+```text
+enum Level {
+  LOW,
+  MEDIUM,
+  HIGH
+}
+Level level = Level.MEDIUM;
+```
+
 ### Reflection 
 
 customized annotation 

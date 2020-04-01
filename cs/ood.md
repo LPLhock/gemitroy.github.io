@@ -2,7 +2,11 @@
 
 ## SOLID 
 
-single responsibility open for extension, close for modification liskov substitution interface segragation dependency inversion 
+* Single responsibility 
+* Open for extension, close for modification 
+* Liskov substitution 
+* Interface segregation 
+* Dependency inversion 
 
 ## Design Pattern
 
@@ -23,4 +27,6 @@ Specification
 
 * abstract policies; 
 * seperate each condition chunk into a concrete specification
+
+Strategy
 
