@@ -77,28 +77,6 @@ enum Level {
 Level level = Level.MEDIUM;
 ```
 
-### Reflection 
-
-#### Customized annotation 
-
-#### Proxy/InvocationHandler
-
-### Class Loading
-
-Class.newInstance\(\) \(call no-arg constructor\) return Object
-
-Class.forName\(String name, boolean initialize, ClassLoader loader\) return Class
-
-#### ClassLoader
-
-BootStrapClassLoader \(Load class in JDK/JRE/LIB\)
-
-Extension ClassLoader \(Load class in JDK/JRE/LIB/EXT\)
-
-System ClassLoader \(Load class in classpath\)
-
-*  ClassLoader.loadClass\(String name, boolean resolve\)
-* 
 ### java.util.function
 
 Functional Interface

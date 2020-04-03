@@ -39,7 +39,11 @@ ExecutorService.submit() == RunnableFuture
 
 ## Synchronized VS Lock 
 
-Synchronized: keyword, cpu intrinsic lock. Thread status is Blocked Lock: class, use CAS internally. Thread status is Waiting
+Synchronized: keyword, cpu intrinsic lock. Thread status is Blocked 
+
+Lock: class, use CAS internally. More versatile.  Thread status is Waiting
+
+Their performance is no difference
 
 ## Thread communication 
 
@@ -51,5 +55,14 @@ CountDownLatch: A thread start when multiple thread completes \(count readch 0\)
 
 ## Note
 
-In particular, the JMM permits compilers to allocate memory for the new Helper object and to assign a reference to that memory to the helper field before initializing the new Helper object. In other words, the compiler can reorder the write to the helper instance field and the write that initializes the Helper object \(that is, this.n = n\) so that the former occurs first. This can expose a race window during which other threads can observe a partially initialized Helper object instance.
+In particular, the JVM permits compilers to allocate memory for the new Helper object and to assign a reference to that memory to the helper field before initializing the new Helper object. In other words, the compiler can reorder the write to the helper instance field and the write that initializes the Helper object \(that is, this.n = n\) so that the former occurs first. This can expose a race window during which other threads can observe a partially initialized Helper object instance.
+
+乐观锁 vs 悲观锁
+
+* 悲观锁：阻塞
+* 乐观锁：非阻塞
+  * Use version number. If current version is not the same as when retrieving, then update will fail.
+  * CAS \(Java use CPU level CAS operation, example: Volatile/Atomic\)
+
+
 

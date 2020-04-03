@@ -15,5 +15,8 @@ Long and Double read/write is not atomic in a 32 bit CPU
 
 ### Volatile
 
+* All update to the volatile variable will be visible to other thread
+* Forbid code reorg
+
 ### ThreadLocal
 
