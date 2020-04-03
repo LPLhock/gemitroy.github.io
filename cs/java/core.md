@@ -12,8 +12,6 @@ Long/Double read/write is not atomic operation on 32bit cpu
 
 Java param is passed by value \(a copy of the value\)
 
-Class.newInstance\(\) invokes the no-arg constructor
-
 ### General 
 
 access modifier 
@@ -81,14 +79,26 @@ Level level = Level.MEDIUM;
 
 ### Reflection 
 
-customized annotation 
+#### Customized annotation 
 
-Proxy/InvocationHandler 
+#### Proxy/InvocationHandler
 
-Class.newInstance\(\) \(call no-arg constructor\) 
+### Class Loading
 
-Each class has a single class object, constructed by JVM when loaded by class loader
+Class.newInstance\(\) \(call no-arg constructor\) return Object
 
+Class.forName\(String name, boolean initialize, ClassLoader loader\) return Class
+
+#### ClassLoader
+
+BootStrapClassLoader \(Load class in JDK/JRE/LIB\)
+
+Extension ClassLoader \(Load class in JDK/JRE/LIB/EXT\)
+
+System ClassLoader \(Load class in classpath\)
+
+*  ClassLoader.loadClass\(String name, boolean resolve\)
+* 
 ### java.util.function
 
 Functional Interface

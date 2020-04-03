@@ -60,11 +60,11 @@
   * [System Design](cs/system-design/system-design-1.md)
 * [Database](cs/database/README.md)
   * [SQL](cs/database/sql.md)
-* [Agile/DevOps](cs/agile-devops.md)
+* [Agile/DevOps](cs/agile-devops/README.md)
+  * [Git](cs/agile-devops/git.md)
 * [AI/ML](cs/ai-ml.md)
 * [Python](cs/python.md)
 * [Web Tech](cs/web-tech.md)
 * [Big Data](cs/big-data/README.md)
   * [Spark](cs/big-data/spark.md)
-* [Git](cs/git.md)
 
