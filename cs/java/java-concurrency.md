@@ -1,57 +1,80 @@
 # Java Concurrency
 
-## java.util.concurrent 
+## General
 
-ConcurrentMap 
+32bit JVM can have only 4G maximal memory and may faster than 64bit JVM
 
-ConcurrentNavigableMap 
+Long and Double read/write is not atomic in a 32 bit CPU
 
-BlockingQueue 
+### Concurrency Problem
 
-CountDownLatch 
+1. Visibility
+2. Mutual exclusion
+3. Atomic
 
-CyclicBarrier 
+## Threading
 
-Semaphore 
+* Thread
+* Runnable
+* Callable 
+* Future
+* ExecutorService
 
-Lock 
-
-ExecutorService 
-
-Callable 
-
-Future 
-
-AtomicXXX 
-
-## ThreadPool 
+### Thread Pool 
 
 ```text
 Executor
 --ExecutorService
 ----ThreadPoolExecutor
-Executors.newFixedThreadPool(n) == ThreadPoolExecutor
+ExecutorService es = Executors.newFixedThreadPool(n)
+ExecutorService es = Executors.newScheduledThreadPool(n)
+ExecutorService es = Executors.newCachedThreadPool(min, max,
+        60L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>())
+
 Future
 --RunnableFuture
 ----FutureTask
-ExecutorService.submit() == RunnableFuture
+Callable<String> task = new Task()
+RunnableFuture<String> future = ExecutorService.submit(task)
+String result = future.get()
 ```
 
-## Synchronized VS Lock 
+## Shared Resource Management
 
-Synchronized: keyword, cpu intrinsic lock. Thread status is Blocked 
+#### Volatile
 
-Lock: class, use CAS internally. More versatile.  Thread status is Waiting
+* All update to the volatile variable will be visible to other thread
+* Forbid code reorg
 
-Their performance is no difference
+#### ThreadLocal
+
+Each Thread will have a copy of a variable from main memory
+
+Usage example: Hibernate Session
+
+#### Synchronized VS Lock VS Atomic
+
+* Synchronized: keyword, cpu intrinsic lock. Thread status is Blocked 
+* Lock: class, use CAS internally. More versatile.  Thread status is Waiting. Performance is the same as synchronized
+* AtomicXXX: light-weight. use CAS\(low level CPU\). May use in high contention and light operation scenario
+* 
+#### Popular Class in java.util.concurrent
+
+* ConcurrentMap 
+* ConcurrentNavigableMap 
+* BlockingQueue 
 
 ## Thread communication 
 
-Semaphore: share multiple resource. How many threads can access shared at the same time 
+* wait\(\)
+* notify\(\)
+* notifyAll\(\)
 
-CyclicBarrier: All thread start when barrier reached 
+#### Popular Class in java.util.concurrent 
 
-CountDownLatch: A thread start when multiple thread completes \(count readch 0\)
+* CyclicBarrier: All thread start when barrier reached 
+* CountDownLatch: A thread start when multiple thread completes \(count readch 0\)
+* Semaphore： share multiple resource. How many threads can access shared at the same time 
 
 ## Note
 
@@ -63,6 +86,4 @@ In particular, the JVM permits compilers to allocate memory for the new Helper o
 * 乐观锁：非阻塞
   * Use version number. If current version is not the same as when retrieving, then update will fail.
   * CAS \(Java use CPU level CAS operation, example: Volatile/Atomic\)
-
-
 
