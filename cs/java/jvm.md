@@ -32,5 +32,5 @@ code might be reordered at compile time
 
 ## GC
 
-## Root
+### GC Root
 
