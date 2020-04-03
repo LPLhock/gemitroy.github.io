@@ -41,6 +41,7 @@
   * [Coding Style](cs/java/coding-style.md)
   * [JVM](cs/java/jvm.md)
   * [Core](cs/java/core.md)
+  * [Java 8](cs/java/java-8.md)
   * [Java Concurrency](cs/java/java-concurrency.md)
   * [Java Collection](cs/java/java-collection.md)
   * [Java Reflection](cs/java/java-reflection.md)

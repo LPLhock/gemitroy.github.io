@@ -22,6 +22,12 @@ Long and Double read/write is not atomic in a 32 bit CPU
 
 ### Thread Pool 
 
+#### 原理：
+
+1. 先判断线程池中的核心线程们是否空闲，如果空闲，就把这个新的任务指派给某一个空闲线程去执行。如果没有空闲，并且当前线程池中的核心线程数还小于 corePoolSize，那就再创建一个核心线程。
+2. 如果线程池的线程数已经达到核心线程数，并且这些线程都繁忙，就把这个新来的任务放到等待队列中去。如果等待队列又满了，那么
+3. 查看一下当前线程数是否到达maximumPoolSize，如果还未到达，就继续创建线程。如果已经到达了，就交给RejectedExecutionHandler来决定怎么处理这个任务。
+
 ```text
 Executor
 --ExecutorService

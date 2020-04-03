@@ -28,10 +28,6 @@ static method
 
 transient: prevent serialization 
 
-custom annotation 
-
-volatile usage 
-
 parameterized argument 
 
 ```text
@@ -40,8 +36,6 @@ void func(int... values) {
     }
 void func(int... values) ~= void func(int[] values)
 ```
-
-
 
 ### Stream 
 
@@ -53,18 +47,13 @@ WeakReference
 
 PhantomReference 
 
-### java.lang 
+### Iterable
 
-* ThreadLocal
-* Runnable
-* * forEach 
-  * iterator 
-  * * enable enhanced for-each 
-* Iterable
-* Cloneable no method, just a flag. 
-* Enum 
-* wait/notify 
-* reflect
+Implement Iterable to to enable the enhanced for-each loop
+
+#### Cloneable 
+
+Implement Cloneable to allow clone\(\). no method, just a flag.  
 
 ### Enum
 
@@ -75,18 +64,6 @@ enum Level {
   HIGH
 }
 Level level = Level.MEDIUM;
-```
-
-### java.util.function
-
-Functional Interface
-
-### Lambda
-
-### Method Reference
-
-```text
-System.out::println
 ```
 
 ### Exception
