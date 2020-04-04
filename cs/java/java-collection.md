@@ -4,6 +4,8 @@
 
 forEach, hasNext, next, remove 
 
+ConcurrentModificationException
+
 ```text
 //ConcurrentModificationException will throw in below remove element
 for (Object i : l) {
