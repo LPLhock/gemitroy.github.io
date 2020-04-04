@@ -8,6 +8,8 @@
 System.out::println
 ```
 
+## Stream
+
 ### java.util.function
 
 Functional Interface
