@@ -60,10 +60,10 @@ Usage example: Hibernate Session
 
 #### Synchronized VS Lock VS Atomic
 
-* Synchronized: keyword, cpu intrinsic lock. Thread status is Blocked 
-* Lock: class, use CAS internally. More versatile.  Thread status is Waiting. Performance is the same as synchronized
+* Synchronized: keyword. cpu intrinsic lock. Thread status is Blocked 
+* Lock: class. More versatile, can use tryLock\(\) to avoid busy waiting.  Thread status is Waiting. Performance is the same as synchronized
 * AtomicXXX: light-weight. use CAS\(low level CPU\). May use in high contention and light operation scenario
-* 
+
 #### Popular Class in java.util.concurrent
 
 * ConcurrentMap 

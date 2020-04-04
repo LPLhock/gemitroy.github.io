@@ -18,26 +18,27 @@ access modifier
 
 super/interface type as parameter in method definition
 
-protected 
-
-interface 
-
-default method 
+protected  
 
 static method 
 
 transient: prevent serialization 
 
-parameterized argument 
+#### interface vs abstract class
+
+| **Interface** | **Abstract** |
+| :--- | :--- |
+| abstract method | abstract method |
+| default method \(auto added into subclass\) | concrete method |
+
+#### Parameterized argument
 
 ```text
 void func(int... values) { 
     for(i=0;i<n;i++) n = values[i]; 
     }
-void func(int... values) ~= void func(int[] values)
+void func(int... values) ~= void func(int[] values) 
 ```
-
-### Stream 
 
 ### Reference type
 
