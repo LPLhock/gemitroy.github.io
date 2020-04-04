@@ -72,3 +72,7 @@ Customize:
 
 extends Exception/RuntimeException and call super\(message\)
 
+#### Try-Catch
+
+always catch subclass exception first
+
