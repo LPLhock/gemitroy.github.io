@@ -34,3 +34,7 @@ code might be reordered at compile time
 
 ### GC Root
 
+### Misc
+
+finalize\(\): called by gc when gc
+

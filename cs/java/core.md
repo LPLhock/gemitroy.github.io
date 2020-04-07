@@ -24,6 +24,9 @@ static method
 
 transient: prevent serialization 
 
+* break: stop top most iteration
+* continue: skip current iteration
+
 #### interface vs abstract class
 
 | **Interface** | **Abstract** |
