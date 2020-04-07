@@ -63,10 +63,10 @@ ArrayList
 ### Map 
 
 ```text
-HashMap: Not sorted; Not safe for structural modification concurrently
+HashMap: Not sorted; Not safe for structural modification concurrently; Allow null
 ---LinkedHashMap: maintain a double linked list through all entries 
 SortedMap
----TreeMap: Sorted once instered in natural order
+---TreeMap: Sorted once instered in natural order; No null allowed
 ConcurrentHashMap: java7 use segment lock. java8 extensive use of volatile and CAS(native compareAndSwapIn
 WeakHashMap
 --LinkedHashMap: Sorted as instersion order
