@@ -19,7 +19,9 @@ all: acknowledge after all in-sync replicas commit
 
 default at-least-once
 
-exactly once semantics \(through transaction\)
+### Exactly once semantics
+
+#### Producer:
 
 ```text
 enable.idempotence: true
@@ -27,7 +29,13 @@ transactional.id: id-1
 isolation.level: read_committed
 ```
 
-#### Terms
+How kafka achieve idempotent:  by send a sequence number together with message
+
+#### Consumer:
+
+To avoid msg duplicate: store topic offset in consumer side db or cache.
+
+### Terms
 
 * Consumer Group
   * A topic can be consumed by only 1 consumer in a Consumer Group

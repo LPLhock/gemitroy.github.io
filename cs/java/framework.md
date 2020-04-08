@@ -22,6 +22,20 @@ callback:
 * init-method
 * destroy-method
 
+#### Bean lifecycle
+
+* Instantiation -&gt; Ready
+  * populate bean properties
+  * postProcessBeforeInitilization
+  * @PostConstruct
+  * InitiatingBean interface
+  * call customize init\(\)
+  * postProcessAfterInitilization
+* Ready -&gt; Shutdown
+  * call customize destroy\(\)
+  * DisposalBean interface
+  * @Predestroy
+
 ## DI
 
 #### XML based
