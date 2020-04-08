@@ -11,18 +11,19 @@
 
 ## Popular Algorithms
 
-| Algo | Algo sub | Problem |
+| Algo | Algo sub/Data Structure | Problem |
 | :--- | :--- | :--- |
 | Enumeration | Central Enum | Palindrome |
 | Hash |  | StrStr |
-| Bitmap |  |  |
+| Bitmap |  | unique character string |
 | 2 Pointers |  | 2 sum |
 | Binary Search |  | OOXX |
 | Binary Search | Quick Select/Quick Sort | K smallest element |
 | Binary Search | Merge Sort |  |
 | Binary Search | Exponential Backoff | Search in big sorted array |
-| BFS |  | BT Level Order Traversal |
+| BFS | Queue | BT Level Order Traversal |
 | DFS |  | Shortest Path |
+| Big data | Heap | Multi-file sort |
 
 
 
