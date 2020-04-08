@@ -4,7 +4,21 @@
 
 ### Index 
 
-composite index RMDB - b-tree to optimize write 
+composite index RMDB - B+tree to optimize write
+
+* 聚簇索引：主键索引的叶子节点存储着行数据
+* 非聚簇索引： 叶子节点存储的是行数据地址，需要再寻址一次才能得到数据
+
+### Misc
+
+#### char vs varchar
+
+* char: 长度固定，读取快
+* varchar：长度不固定，节省空间
+
+#### int\(20\)中20的涵义
+
+指显示字符的长度。20表示最大显示宽度为20，但仍占4字节存储，存储范围不变
 
 ### Cache 
 
@@ -22,9 +36,10 @@ Horizontal sharding Consistent hashing How to shard \(which key\)? How to mainta
 
 Bloom Filter A big bit array + multiple hash function true negative, but tolerate false positive  
 
-## SQL
+## MySQL
 
-complex query
+* **Innodb引擎**：Innodb引擎提供了对数据库ACID事务的支持。并且还提供了行级锁和外键的约束。聚簇索引。
+* **MyIASM引擎**：不提供事务的支持，也不支持行级锁和外键。非聚簇索引
 
 ## Redis/Memcached 
 
