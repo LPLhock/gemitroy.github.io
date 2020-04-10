@@ -52,6 +52,7 @@
   * [Common Problems](cs/algorithm/common-problems.md)
   * [Common Solutions](cs/algorithm/common-solutions.md)
   * [Big Data Problem](cs/algorithm/big-data-problem.md)
+  * [Thread Safe Stack](cs/algorithm/thread-safe-stack.md)
 * [OOD](cs/ood.md)
 * [System](cs/system-design/README.md)
   * [Messaging System](cs/system-design/msg-system.md)
