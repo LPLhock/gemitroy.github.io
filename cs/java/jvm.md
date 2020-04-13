@@ -26,16 +26,29 @@ visualVM
 
 code might be reordered at compile time
 
-## GC
+## 垃圾回收算法
 
-回收算法
+#### 对象标记判断算法
 
-* 标记-清理
-* 分代回收
+* 引用计数算法
+* 可达性分析：GC Roots引用链，如无引用，则被第一次“标记”；finalized\(\)能让对象自我拯救
 
-### GC Root
+#### 垃圾收集算法
 
-### Misc
+* 分代回收：Minor GC/Major GC/Full GC
+* 标记-清除：效率不稳定，内存空间碎片化
+* 标记-复制：对象存活率高时复制多，效率低，一般用于新生代，将其分为1  较大的Eden和2 small Survivor
+* 标记-整理：将存活对象向内存一端移动，然后直接清理边界以外内存
+
+#### Misc
 
 finalize\(\): called by gc when gc
+
+## 类加载
+
+#### 加载 - 连接 - 初始化
+
+#### 类加载器
+
+
 
