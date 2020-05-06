@@ -1,6 +1,4 @@
-# Common Solutions
-
-##  d2 Pointers
+# 2 Pointers
 
 ### Solutions
 
