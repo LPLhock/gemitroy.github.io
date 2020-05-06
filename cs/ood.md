@@ -27,7 +27,7 @@
 
 ## Design Pattern
 
-#### Singleton Factory Method 
+#### Factory Method 
 
 * make method abstract; 
 * delegate the concrete action to subclass 
@@ -37,6 +37,8 @@
 * extract the creating of object to another class 
 
 #### Abstract Factory 
+
+* for multiple product line or product catalog
 
 #### Builder 
 

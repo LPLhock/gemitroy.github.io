@@ -64,9 +64,20 @@ Usage example: Hibernate Session
 * Lock: class. More versatile, can use tryLock\(\) to avoid busy waiting.  Thread status is Waiting. Performance is the same as synchronized
 * AtomicXXX: light-weight. use CAS\(low level CPU\). May use in high contention and light operation scenario
 
+```text
+public final int getAndSet(int newValue) {
+        for (;;) {
+            int current = get();
+            if (compareAndSet(current, newValue))
+                return current;
+        }
+    }
+```
+
 #### Popular Class in java.util.concurrent
 
-* ConcurrentMap 
+* ConcurrentHashMap 
+  * before jdk8, use lock segment; after jdk8, use array lock
 * ConcurrentNavigableMap 
 * BlockingQueue 
 

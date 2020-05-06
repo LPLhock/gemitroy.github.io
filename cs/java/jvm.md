@@ -40,6 +40,13 @@ code might be reordered at compile time
 * 标记-复制：对象存活率高时复制多，效率低，一般用于新生代，将其分为1  较大的Eden和2 small Survivor
 * 标记-整理：将存活对象向内存一端移动，然后直接清理边界以外内存
 
+#### 垃圾回收器
+
+* Serial, Parallel
+* CMS
+* G1
+* ZGC - all concurrently
+
 #### Misc
 
 finalize\(\): called by gc when gc
