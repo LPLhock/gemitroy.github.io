@@ -16,7 +16,7 @@
     * [Trend Trade](finance/trading/strategy/trend-trade.md)
     * [Pair Trade](finance/trading/strategy/trading-diary.md)
     * [Candle Volume Trade](finance/trading/strategy/candle-volume-trade.md)
-* [Cryptocurrency](finance/crypto/README.md)
+* [BlockChain Cryptocurrency](finance/crypto/README.md)
   * [Exchange List](finance/crypto/exchange-list.md)
   * [Auto Trade](finance/crypto/auto-trade.md)
   * [Strategy](finance/crypto/strategy.md)
