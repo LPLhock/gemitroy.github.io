@@ -30,8 +30,11 @@
   * [Technical Analysis of the Financial Market](finance/books/technical-analysis-of-financial-market.md)
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
   * [How to Day Trade for a Living](finance/books/how-to-day-trade-for-a-living.md)
+  * [The New Trading for a Living](finance/books/the-new-trading-for-a-living.md)
+  * [The New Sell and Sell Short](finance/books/the-new-sell-and-sell-short.md)
   * [Technical Analysis of Stock Trends](finance/books/technical-analysis-of-stock-trends.md)
   * [High Probability Trading](finance/books/high-probability-trading.md)
+  * [Trade Your Way to Financial Freedom](finance/books/trade-your-way-to-financial-freedom.md)
   * [Phantom of the Pit](finance/books/phantom-of-the-pit.md)
   * [华尔街操盘手日记](finance/books/hua-er-jie-cao-pan-shou-ri-ji.md)
 

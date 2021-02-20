@@ -1,11 +1,12 @@
 ---
-description: Very elementary and practical
+description: 以日内交易为生 - Andrew Aziz
 ---
 
 # How to Day Trade for a Living
 
 ## Key takeaways
 
+* Very elementary and practical
 * Price move are to be seen as a fight between buyer and seller
 * Lose/reward ration should be at least 1:2
 * Always plan a trade or should I say trade a plan
