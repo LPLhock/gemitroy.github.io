@@ -29,6 +29,7 @@
   * [Market Wizards](finance/books/market-wizards.md)
   * [Technical Analysis of the Financial Market](finance/books/technical-analysis-of-financial-market.md)
   * [Technical Analysis Using Multiple Timeframes](finance/books/technical-analysis-using-multiple-timeframes.md)
+  * [How to Trade in Stocks](finance/books/how-to-trade-in-stocks.md)
   * [How to Day Trade for a Living](finance/books/how-to-day-trade-for-a-living.md)
   * [The New Trading for a Living](finance/books/the-new-trading-for-a-living.md)
   * [The New Sell and Sell Short](finance/books/the-new-sell-and-sell-short.md)
@@ -36,7 +37,11 @@
   * [High Probability Trading](finance/books/high-probability-trading.md)
   * [Trade Your Way to Financial Freedom](finance/books/trade-your-way-to-financial-freedom.md)
   * [Phantom of the Pit](finance/books/phantom-of-the-pit.md)
+  * [The Universal Principle of Successful Trading](finance/books/the-universal-principle-of-successful-trading.md)
   * [华尔街操盘手日记](finance/books/hua-er-jie-cao-pan-shou-ri-ji.md)
+  * [教你炒股票](finance/books/jiao-ni-chao-gu-piao.md)
+  * [炒股的智慧](finance/books/chao-gu-de-zhi-hui.md)
+  * [华杉讲透孙子兵法](finance/books/hua-sha-jiang-tou-sun-zi-bing-fa.md)
 
 ## Computer Science <a id="cs"></a>
 
