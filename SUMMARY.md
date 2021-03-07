@@ -41,8 +41,8 @@
   * [威科夫量价分析](finance/books/wei-ke-fu-liang-jia-fen-xi.md)
   * [蜡烛图技术](finance/books/la-zhu-tu-ji-shu.md)
   * [华尔街操盘手日记](finance/books/hua-er-jie-cao-pan-shou-ri-ji.md)
-  * [教你炒股票](finance/books/jiao-ni-chao-gu-piao.md)
   * [炒股的智慧](finance/books/chao-gu-de-zhi-hui.md)
+  * [教你炒股票](finance/books/jiao-ni-chao-gu-piao.md)
 
 ## Computer Science <a id="cs"></a>
 
