@@ -2,6 +2,12 @@
 
 * [Preface](README.md)
 
+## Memo
+
+---
+
+* [Trading](memo-trading.md)
+
 ## Finance
 
 * [Financial Market](finance/market/README.md)
